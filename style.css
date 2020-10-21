@@ -1,0 +1,317 @@
+body {
+  margin: 0;
+  --theme-color: lightgray; /* #449ac7 */
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: "Montserrat";
+  font-weight: 300;
+  cursor: default;
+}
+
+/* Header */
+#header {
+  height: 80px;
+  background: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+#inner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+#brand h2 {
+  color: white;
+  cursor: default;
+  font-size: 1.8rem;
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav > ul > li {
+  color: white;
+  margin: 0 10px;
+  list-style: none;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.13rem;
+  padding: 8px 10px;
+  transition-property: border, color;
+  transition-duration: 0.3s;
+  border-bottom: solid 2px transparent;
+}
+
+nav > ul > li > a:hover {
+  /* color: ; */
+  border-bottom: 2px solid var(--theme-color);
+}
+
+/* Showcase */
+#showcase {
+  background: url(pic1.jpg) no-repeat 0px -50px / cover;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+#showcase2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+#showcase::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+#showcase-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#showcase-text h1 {
+  color: white;
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+#showcase-text p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+/* About */
+#about {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+#about-me-text {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  /* margin-right: 80px; */
+  background: black;
+  color: white;
+}
+
+#about-me-wrap {
+  width: 90%;
+  margin-left: 30px;
+}
+
+#about-me-text h2 {
+  font-size: 2.3rem;
+}
+
+#about-me-text p {
+  font-size: 1.1rem;
+}
+
+#about-me-image {
+  background: url(pic2.jpg) no-repeat center center/cover;
+  height: 100%;
+  width: 50%;
+}
+
+/* What i do */
+#what-i-do {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#what-i-do h2 {
+  font-size: 3.2rem;
+  margin: 0;
+}
+
+#what-i-do p {
+  font-size: 2.2rem;
+  margin: 20xp;
+}
+
+#what-i-do h3 {
+  margin: 0;
+  cursor: pointer;
+}
+
+#what-i-do a {
+  text-decoration: none;
+  color: white;
+  background: black;
+  border-radius: 50px;
+  padding: 8px 15px;
+  font-size: 0.8rem;
+  transition-property: color, background;
+  transition-duration: 0.3s;
+}
+
+#what-i-do a:hover {
+  color: black;
+  background: lightgray;
+}
+
+/* Contact */
+#contact {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact h2 {
+  font-size: 3.2rem;
+  margin-top: 20px;
+}
+
+#contact > a > h3 {
+  margin: 0;
+  cursor: pointer;
+}
+
+#contact a {
+  text-decoration: none;
+  color: white;
+  background: black;
+  border-radius: 50px;
+  padding: 8px 15px;
+  font-size: 0.8rem;
+  transition-property: color, background;
+  transition-duration: 0.3s;
+}
+
+#contact a:hover {
+  color: black;
+  background: lightgray;
+}
+
+/* Footer */
+#footer {
+  height: 80px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+#footer p {
+  color: white;
+}
+
+/* SERVICES */
+/* Showcase */
+#showcase-image {
+  background: url(pic1.jpg) no-repeat 0 -50px / cover;
+  height: 100vh;
+  z-index: 1;
+}
+
+#showcase-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+#services2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+/* Header */
+#header-services {
+  background: transparent;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Body */
+#body-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Main */
+#services-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#services-services h1 {
+  font-size: 3.2rem;
+  margin: 0 0 30px;
+  color: white;
+}
+
+#boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.services-box {
+  width: 25%;
+  background: transparent;
+  border-radius: 10px;
+  color: white;
+}
+
+.services-box h2 {
+  font-size: 1.6rem;
+}
+
+.services-box:nth-child(even) {
+  margin: 0 30px;
+}
