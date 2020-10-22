@@ -124,14 +124,13 @@ nav > ul > li > a:hover {
   justify-content: center;
   align-items: flex-start;
   text-align: left;
-  /* margin-right: 80px; */
   background: black;
   color: white;
 }
 
 #about-me-wrap {
   width: 90%;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 #about-me-text h2 {
@@ -163,8 +162,8 @@ nav > ul > li > a:hover {
 }
 
 #what-i-do p {
-  font-size: 2.2rem;
-  margin: 20xp;
+  font-size: 2rem;
+  margin: 10px 0 30px;
 }
 
 #what-i-do h3 {
@@ -239,13 +238,12 @@ nav > ul > li > a:hover {
 
 /* SERVICES */
 /* Showcase */
-#showcase-image {
+/* #showcase-image {
   background: url(pic1.jpg) no-repeat 0 -50px / cover;
-  height: 100vh;
   z-index: 1;
-}
+} */
 
-#showcase-image::before {
+/* #showcase-image::before {
   content: "";
   position: absolute;
   top: 0;
@@ -254,19 +252,18 @@ nav > ul > li > a:hover {
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
   z-index: -1;
-}
+} */
 
 #services2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80%;
 }
 
 /* Header */
 #header-services {
-  background: transparent;
+  background: black;
   height: 80px;
   width: 100%;
   display: flex;
@@ -278,6 +275,7 @@ nav > ul > li > a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100vh;
 }
 
 /* Main */
@@ -290,8 +288,8 @@ nav > ul > li > a:hover {
 
 #services-services h1 {
   font-size: 3.2rem;
-  margin: 0 0 30px;
-  color: white;
+  margin: 30px 0;
+  color: black;
 }
 
 #boxes {
@@ -305,7 +303,7 @@ nav > ul > li > a:hover {
   width: 25%;
   background: transparent;
   border-radius: 10px;
-  color: white;
+  color: black;
 }
 
 .services-box h2 {
