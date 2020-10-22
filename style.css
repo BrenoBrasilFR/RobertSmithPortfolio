@@ -149,7 +149,7 @@ nav > ul > li > a:hover {
 
 /* What i do */
 #what-i-do {
-  height: 350px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -163,7 +163,7 @@ nav > ul > li > a:hover {
 
 #what-i-do p {
   font-size: 2rem;
-  margin: 10px 0 30px;
+  margin: 10px 0 60px;
 }
 
 #what-i-do h3 {
@@ -312,16 +312,6 @@ nav > ul > li > a:hover {
 
 .services-box:nth-child(even) {
   margin: 0 30px;
-}
-
-.ibox {
-  background: transparent;
-  height: 100px;
-  width: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 110px;
 }
 
 .ibox i {
