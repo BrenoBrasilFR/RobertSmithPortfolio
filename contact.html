@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <title>Robert Smith | Services</title>
+    <title>Robert Smith | Contact</title>
   </head>
   <body id="body-services">
     <section id="showcase-services">
@@ -25,33 +25,23 @@
       </div>
     </section>
 
-    <div id="services2">
-      <section id="services-services">
-        <h1>My Services</h1>
-        <div id="boxes">
-          <div class="services-box">
-            <div class="ibox">
-            <i class="fas fa-drafting-compass fa-4x"></i>
-            </div>
-            <h2>Website Design</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ab?</p>
-          </div>
-          <div class="services-box">
-            <div class="ibox">
-            <i class="fas fa-laptop fa-4x"></i>
-            </div>
-            <h2>Website Maintenance</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ab?</p>
-          </div>
-          <div class="services-box">
-            <div class="ibox">
-            <i class="fas fa-server fa-4x"></i>
-            </div>
-            <h2>Website Hosting</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ab?</p>
-          </div>
+    <div id="contact-form">
+      <h2>Contact Me</h2>
+      <form method="POST" name="contact" class="contact-form">
+        <div class="input-form">
+          <label for="name" id="name-label">Name</label>
+          <input type="text" name="name" id="name">
         </div>
-      </section>
+        <div class="input-form">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="input-form">
+          <label>Message</label>
+          <textarea type="text" name="phone" id="phone"></textarea>
+        </div>
+        <input type="submit" value="Send" id="submit">
+      </form>
     </div>
 
     <section id="services-footer">

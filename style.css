@@ -237,23 +237,6 @@ nav > ul > li > a:hover {
 }
 
 /* SERVICES */
-/* Showcase */
-/* #showcase-image {
-  background: url(pic1.jpg) no-repeat 0 -50px / cover;
-  z-index: 1;
-} */
-
-/* #showcase-image::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.4);
-  z-index: -1;
-} */
-
 #services2 {
   display: flex;
   flex-direction: column;
@@ -276,6 +259,18 @@ nav > ul > li > a:hover {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  background: url(pic5.jpg) no-repeat 0 0 / cover;
+}
+
+#body-services::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
 }
 
 /* Main */
@@ -289,7 +284,7 @@ nav > ul > li > a:hover {
 #services-services h1 {
   font-size: 3.2rem;
   margin: 30px 0;
-  color: black;
+  color: white;
 }
 
 #boxes {
@@ -303,13 +298,110 @@ nav > ul > li > a:hover {
   width: 25%;
   background: transparent;
   border-radius: 10px;
-  color: black;
+  color: white;
 }
 
 .services-box h2 {
   font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.services-box p {
+  font-weight: 300;
 }
 
 .services-box:nth-child(even) {
   margin: 0 30px;
+}
+
+.ibox {
+  background: transparent;
+  height: 100px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 110px;
+}
+
+.ibox i {
+  color: white;
+}
+
+#services-footer {
+  background: black;
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTACT */
+#contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#contact-form form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#contact-form h2 {
+  color: white;
+  font-size: 3.2rem;
+  margin: 20px;
+}
+
+.input-form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 5px 0;
+}
+
+.input-form label {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  margin-bottom: 3px;
+}
+
+.input-form input {
+  width: 400px;
+  line-height: 25px;
+  border-radius: 5px;
+  border: 0px solid;
+}
+
+.input-form textarea {
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+form > input {
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  background: black;
+  width: 80px;
+  border-radius: 50px;
+  padding: 8px 15px;
+  font-size: 0.8rem;
+  transition-property: color, background;
+  transition-duration: 0.3s;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+form > input:hover {
+  color: black;
+  background: lightgray;
 }
