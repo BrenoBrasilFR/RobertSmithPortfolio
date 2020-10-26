@@ -149,7 +149,7 @@ nav > ul > li > a:hover {
 
 /* What i do */
 #what-i-do {
-  height: 40vh;
+  height: 325px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -163,7 +163,7 @@ nav > ul > li > a:hover {
 
 #what-i-do p {
   font-size: 2rem;
-  margin: 10px 0 5vh;
+  margin: 10px 0 50px;
 }
 
 #what-i-do h3 {
@@ -189,7 +189,7 @@ nav > ul > li > a:hover {
 
 /* Contact */
 #contact {
-  height: 30vh;
+  height: 275px;
   display: flex;
   flex-direction: column;
   justify-content: center;
