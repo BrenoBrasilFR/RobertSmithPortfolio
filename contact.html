@@ -8,7 +8,7 @@
   </head>
   <body id="body-services">
     <section id="showcase-services">
-      <div id="header-services">
+      <div id="header-services" class="shadow">
         <div id="inner-header">
           <div id="brand">
             <h2>Robert Smith</h2>
@@ -17,7 +17,7 @@
             <ul>
               <li><a href="index.html">Home</a></li>
               <li><a href="services.html">Services</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact.html" class="current">Contact</a></li>
             </ul>
             </ul>
           </nav>
@@ -26,8 +26,8 @@
     </section>
 
     <div id="contact-form">
-      <h2>Contact Me</h2>
-      <form method="POST" name="contact" class="contact-form">
+      <h2 class="show">Contact Me</h2>
+      <form method="POST" name="contact" class="contact-form show">
         <div class="input-form">
           <label for="name" id="name-label">Name</label>
           <input type="text" name="name" id="name">
@@ -47,5 +47,7 @@
     <section id="services-footer">
       <p>Copyright &copy; 2020 - Robert Smith</p>
     </section>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
