@@ -29,7 +29,7 @@ li {
 }
 
 .shadow {
-  box-shadow: 0px 4px 15px black;
+  box-shadow: 0px 0px 20px black;
 }
 
 #inner-header {
@@ -85,6 +85,7 @@ nav > ul > li > a:hover {
   height: 100vh;
   position: relative;
   z-index: 1;
+  box-shadow: 0px 0px 20px black;
 }
 
 #showcase2 {
@@ -131,11 +132,13 @@ nav > ul > li > a:hover {
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
+  box-shadow: 0px 0px 20px #666, 0px 0px 20px #666;
 }
 
 #about-me-text {
   height: 100%;
   width: 50%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -143,6 +146,8 @@ nav > ul > li > a:hover {
   text-align: left;
   background: black;
   color: white;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
 }
 
 #about-me-wrap {
@@ -245,6 +250,7 @@ nav > ul > li > a:hover {
   justify-content: center;
   align-items: center;
   z-index: 2;
+  box-shadow: 0px 0px 20px black;
 }
 
 #footer p {
@@ -340,6 +346,7 @@ nav > ul > li > a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px -1px 20px black;
 }
 
 /* CONTACT */

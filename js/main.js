@@ -5,7 +5,7 @@ const items = document.querySelectorAll(".show");
 window.onscroll = function () {
     if (window.pageYOffset > 50) {
         header.style.background = "black";
-        header.style.boxShadow = "0px 4px 15px black";
+        header.style.boxShadow = "0px 0px 20px black";
     } else {
         header.style.background = "transparent";
         header.style.boxShadow = "none";
