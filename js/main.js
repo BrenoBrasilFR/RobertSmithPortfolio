@@ -19,7 +19,7 @@ const appearOptions = {
 };
 
 const appearOnScroll = new IntersectionObserver 
-(function(entries, appearOnScroll) {
+(function showFunction (entries, appearOnScroll) {
     entries.forEach(entry => {
         if (!entry.isIntersecting) {
             return;
@@ -33,3 +33,4 @@ const appearOnScroll = new IntersectionObserver
 items.forEach(item => {
     appearOnScroll.observe(item);
 })
+
