@@ -432,10 +432,10 @@ form > input:hover {
 }
 
 .showOnLoad {
-  margin-top: 50px;
+  margin-top: 30px;
   visibility: hidden;
   opacity: 0;
-  transition-duration: 1s;
+  transition-duration: 0.8s;
   transition-property: visibility, opacity, margin-top;
 }
 
