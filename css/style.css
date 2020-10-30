@@ -418,6 +418,7 @@ form > input:hover {
   background: lightgray;
 }
 
+/* JS */
 .show {
   visibility: hidden;
   opacity: 0;
@@ -426,7 +427,20 @@ form > input:hover {
 }
 
 .show0 {
-  margin-top: 0;
   visibility: visible;
   opacity: 1;
+}
+
+.showOnLoad {
+  margin-top: 50px;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 1s;
+  transition-property: visibility, opacity, margin-top;
+}
+
+.show1 {
+  margin-top: 0;
+  opacity: 1;
+  visibility: visible;
 }

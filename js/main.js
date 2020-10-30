@@ -1,6 +1,8 @@
 /* HEADER */
 const header  = document.getElementById("header");
 const items = document.querySelectorAll(".show");
+const image = document.querySelector("#showcase");
+const mainItem = document.querySelector(".showOnLoad")
 
 window.onscroll = function () {
     if (window.pageYOffset > 50) {
@@ -18,7 +20,7 @@ const appearOptions = {
     threshold: 1,
 };
 
-const appearOnScroll = new IntersectionObserver 
+const appearOnScroll = new IntersectionObserver
 (function showFunction (entries, appearOnScroll) {
     entries.forEach(entry => {
         if (!entry.isIntersecting) {
@@ -34,3 +36,7 @@ items.forEach(item => {
     appearOnScroll.observe(item);
 })
 
+/* SHOW ON IMAGE LOAD */
+function myFunction() {
+    mainItem.classList.add("show1");
+}
