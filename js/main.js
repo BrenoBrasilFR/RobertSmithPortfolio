@@ -49,7 +49,6 @@ const menu = document.querySelector(".menuToggle");
 const menuTextCurrent = document.getElementById("current");
 const menuToggle = document.querySelector(".menuToggle1");
 const menuText = document.querySelectorAll(".a");
-const header0 = document.querySelector("#header");
 let menuBtnStatus = true;
 
 function toggleMenu(e) {
@@ -63,7 +62,7 @@ function toggleMenu(e) {
         menuToggle.style.marginTop = "0px";
         menuToggle.style.backgroundColor = "transparent";
         menuTextCurrent.style.borderBottom = "transparent solid 2px";
-        header0.style.borderBottom = "transparent solid 1px";
+        header.style.borderBottom = "transparent solid 2px";
         menuBtnStatus = true;
     } else if (menuBtnStatus = true) {
         for (i = 0; i < menuText.length; i++) {
@@ -72,7 +71,7 @@ function toggleMenu(e) {
         menuToggle.style.marginTop = "80px";
         menuToggle.style.backgroundColor = "black";
         menuTextCurrent.style.borderBottom = "lightgray solid 2px";
-        header0.style.borderBottom = "lightgray solid 1px";
+        header.style.borderBottom = "lightgray solid 2px";
         menuBtnStatus = false;
     }
 }
