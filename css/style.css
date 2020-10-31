@@ -18,14 +18,14 @@ li {
 /* Header */
 #header {
   height: 80px;
-  background: transparent;
   width: 100%;
   display: flex;
   justify-content: center;
   z-index: 2;
   position: fixed;
   transition-duration: 0.5s;
-  transition-property: background, box-shadow;
+  transition-property: background, box-shadow, border-bottom;
+  border-bottom: 1px solid transparent;
 }
 
 .shadow {
@@ -94,7 +94,6 @@ nav > ul > li > a:hover {
   height: 30px;
   border-radius: 5px;
 }
-
 
 .menuToggle1 {
   display: none;
@@ -286,13 +285,9 @@ nav > ul > li > a:hover {
   align-items: center;
 }
 
-/* Header */
-#header-services {
+/* Black class */
+.black {
   background: black;
-  height: 80px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 /* Body */
@@ -466,6 +461,10 @@ form > input:hover {
 
 /* MEDIA */
 @media (max-width: 736px) {
+  #header {
+    background: black;
+  }
+
   .menuOuter {
     display: flex;
   }
@@ -479,12 +478,12 @@ form > input:hover {
     justify-content: center;
     align-items: center;
     position: fixed;
-    margin-top: 80px;
-    margin-left: 736px;
-    background: black;
+    margin-top: 0px;
+    background-color: transparent;
+    color: transparent;
     width: 100vw;
     height: 60px;
-    transition-property: margin-left;
+    transition-property: margin-top, background-color, color;
     transition-duration: 0.5s;
   }
 
@@ -497,10 +496,22 @@ form > input:hover {
     display: flex;
   }
 
-  .menuToggle1 > ul > li > a {
+  .a {
     text-decoration: none;
-    color: white;
+    color: transparent;
     font-size: 1.13rem;
     padding: 5px 10px;
+    border-bottom: transparent solid 2px;
+    transition-duration: 0.5s;
+  }
+
+  .current {
+    text-decoration: none;
+    color: transparent;
+    font-size: 1.13rem;
+    padding: 5px 10px;
+    border-bottom: transparent solid 2px;
+    transition-duration: 0.5s;
+    transition-property: border-bottom, color;
   }
 }
