@@ -600,8 +600,9 @@ form > input:hover {
 
   /* CONTACT */
   #contact-form {
-    margin: 150px 0 100px;
+    padding: 150px 0 100px;
     height: 90vh;
+    box-sizing: border-box;
   }
 
   #contact-form h2 {
