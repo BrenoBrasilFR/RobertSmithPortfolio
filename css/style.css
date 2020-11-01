@@ -519,7 +519,8 @@ form > input:hover {
 
   /* Showcase */
   #showcase-text h1 {
-    font-size: 3.2rem;
+    font-size: 3rem;
+    margin: 0 20px;
   }
 
   #showcase-text p {
@@ -561,6 +562,10 @@ form > input:hover {
 
   #about-me-wrap {
     margin: 0 20px;
+  }
+
+  #about-me-wrap h2 {
+    margin: 20px 0;
   }
 
   #about-me-text {
