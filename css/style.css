@@ -517,6 +517,10 @@ form > input:hover {
     transition-property: border-bottom, color;
   }
 
+  #showcase::before {
+    height: 0;
+  }
+
   /* Showcase */
   #showcase-text h1 {
     font-size: 3rem;
@@ -566,10 +570,6 @@ form > input:hover {
 
   #about-me-wrap h2 {
     margin: 20px 0;
-  }
-
-  #about-me-text {
-
   }
 
   /* Contact */
