@@ -206,6 +206,7 @@ nav > ul > li > a:hover {
 #what-i-do p {
   font-size: 2rem;
   margin: 10px 0 50px;
+  text-align: center;
 }
 
 #what-i-do h3 {
@@ -538,7 +539,7 @@ form > input:hover {
   #what-i-do p {
     font-size: 1.4rem;
     text-align: center;
-    margin: 10px 20px 30px;
+    margin: 15px 20px 30px;
   }
 
   /* About */
@@ -554,6 +555,7 @@ form > input:hover {
   }
 
   #about-me-image {
+    background: url(../images/pic2.jpg) no-repeat center center/800px;
     width: 100%;
   }
 
