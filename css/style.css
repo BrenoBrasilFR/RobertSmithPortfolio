@@ -578,4 +578,44 @@ form > input:hover {
     text-align: center;
     margin: 20px 0px 30px;
   }
+
+  /* SERVICES */
+  #boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .services-box {
+    width: 90%;
+    margin: 40px 0 ;
+  }
+
+  #body-services {
+    height: 100%;
+  }
+
+  #body-services::before {
+    height: 0;
+  }
+
+  /* CONTACT */
+  #contact-form {
+    margin: 150px 0 100px;
+  }
+
+  #contact-form h2 {
+    font-size: 2.5rem;
+  }
+
+  .input-form label {
+    font-size: 1.3rem;
+  }
+
+  .input-form input {
+    width: 300px;
+  }
+
+  .input-form textarea {
+    width: 300px;
+  }
 }
