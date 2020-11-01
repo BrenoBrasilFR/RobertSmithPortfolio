@@ -20,7 +20,7 @@ window.onscroll = function () {
 
 /* SHOW ITEMS */
 const appearOptions = {
-    threshold: 1,
+    threshold: 0.6,
 };
 
 const appearOnScroll = new IntersectionObserver
