@@ -460,6 +460,7 @@ form > input:hover {
 }
 
 /* MEDIA */
+/* Header */
 @media (max-width: 736px) {
   #header {
     background: black;
@@ -513,5 +514,61 @@ form > input:hover {
     border-bottom: transparent solid 2px;
     transition-duration: 0.5s;
     transition-property: border-bottom, color;
+  }
+
+  /* Showcase */
+  #showcase-text h1 {
+    font-size: 2.7rem;
+  }
+
+  #showcase-text p {
+    font-size: 1.3rem;
+    margin: 20px 20px 0px;
+  }
+
+  /* What i do */
+  #what-i-do {
+    height: 280px;
+  }
+
+  #what-i-do h2 {
+    font-size: 2.5rem;
+  }
+
+  #what-i-do p {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 10px 20px 30px;
+  }
+
+  /* About */
+  #about {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 700px;
+  }
+
+  #about-me-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  #about-me-image {
+    width: 100%;
+  }
+
+  #about-me-wrap {
+    margin: 0 20px;
+  }
+
+  #about-me-text {
+
+  }
+
+  /* Contact */
+  #contact h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0px 30px;
   }
 }
