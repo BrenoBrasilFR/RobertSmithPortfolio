@@ -618,4 +618,8 @@ form > input:hover {
   .input-form textarea {
     width: 300px;
   }
+
+  .body-contact {
+    height: 100vh;
+  }
 }
