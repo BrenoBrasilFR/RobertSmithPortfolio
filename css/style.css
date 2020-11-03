@@ -534,7 +534,7 @@ form > input:hover {
 
   /* What i do */
   #what-i-do {
-    height: 280px;
+    height: 330px;
   }
 
   #what-i-do h2 {
@@ -544,7 +544,7 @@ form > input:hover {
   #what-i-do p {
     font-size: 1.4rem;
     text-align: center;
-    margin: 15px 20px 30px;
+    margin: 15px 20px 40px;
   }
 
   /* About */
