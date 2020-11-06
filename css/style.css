@@ -215,6 +215,7 @@ nav > ul > li > a:hover {
 }
 
 #what-i-do a {
+  text-align: center;
   text-decoration: none;
   color: white;
   background: black;
@@ -249,6 +250,7 @@ nav > ul > li > a:hover {
 }
 
 #contact a {
+  text-align: center;
   text-decoration: none;
   color: white;
   background: black;
@@ -604,6 +606,10 @@ form > input:hover {
 
   #body-services::before {
     height: 0;
+  }
+
+  #services-services h1 {
+    margin: 130px 0 2px;
   }
 
   /* CONTACT */

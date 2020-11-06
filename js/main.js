@@ -62,7 +62,7 @@ function toggleMenu(e) {
         menuToggle.style.marginTop = "0px";
         menuToggle.style.backgroundColor = "transparent";
         menuTextCurrent.style.borderBottom = "transparent solid 2px";
-        menuToggle.style.borderBottom = "transparent solid 2px";
+        menuToggle.style.borderBottom = "transparent solid 0px";
         menuBtnStatus = true;
     } else if (menuBtnStatus = true) {
         for (i = 0; i < menuText.length; i++) {
@@ -71,7 +71,7 @@ function toggleMenu(e) {
         menuToggle.style.marginTop = "80px";
         menuToggle.style.backgroundColor = "black";
         menuTextCurrent.style.borderBottom = "lightgray solid 2px";
-        menuToggle.style.borderBottom = "lightgray solid 2px";
+        menuToggle.style.borderBottom = "lightgray solid 0px";
         menuBtnStatus = false;
     }
 }
