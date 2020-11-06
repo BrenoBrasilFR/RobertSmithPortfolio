@@ -274,6 +274,7 @@ nav > ul > li > a:hover {
   align-items: center;
   z-index: 2;
   box-shadow: 0px 0px 20px black;
+  text-align: center;
 }
 
 #footer p {
@@ -463,6 +464,18 @@ form > input:hover {
 }
 
 /* MEDIA */
+#footer {
+  box-shadow: none;
+}
+
+#showcase {
+  box-shadow: none;
+}
+
+#about {
+  box-shadow: none, none
+}
+
 /* Header */
 @media (max-width: 736px) {
   #header {
