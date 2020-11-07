@@ -464,20 +464,20 @@ form > input:hover {
 }
 
 /* MEDIA */
-#footer {
-  box-shadow: none;
-}
-
-#showcase {
-  box-shadow: none;
-}
-
-#about {
-  box-shadow: none, none
-}
-
 /* Header */
 @media (max-width: 736px) {
+  #footer {
+    box-shadow: none;
+  }
+  
+  #showcase {
+    box-shadow: none;
+  }
+  
+  #about {
+    box-shadow: none;
+  }
+  
   #header {
     background: black;
   }
