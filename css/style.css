@@ -475,7 +475,7 @@ form > input:hover {
   }
   
   #about {
-    box-shadow: 0;
+    box-shadow: none, none;
   }
   
   #header {
