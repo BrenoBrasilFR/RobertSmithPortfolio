@@ -1,5 +1,6 @@
 /* HEADER */
 const header  = document.getElementById("header");
+const headerAlt  = document.getElementById("header-alt");
 const items = document.querySelectorAll(".show");
 const image = document.querySelector("#showcase");
 const mainItem = document.querySelector(".showOnLoad");
