@@ -14,7 +14,6 @@ li {
     font-weight: 300;
     cursor: default;
     margin: 0;
-    text-align: center;
 }
 
 /* Header */
@@ -293,6 +292,7 @@ nav > ul > li > a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 }
 
 /* Black class */
@@ -399,6 +399,17 @@ nav > ul > li > a:hover {
     color: white;
     font-size: 3.2rem;
     margin: 0px 20px 15px;
+}
+
+#inner-contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
 }
 
 .input-form {
@@ -607,6 +618,10 @@ form > input:hover {
         margin-top: 40px;
     }
 
+    #services2 {
+        margin-top: 0px;
+    }
+
     .services-box {
         width: 90%;
         margin: 0;
@@ -644,12 +659,25 @@ form > input:hover {
         margin-top: 80px;
     }
 
+    #contact-form h2 {
+        font-size: 2.7rem;
+    }
+
+    #inner-contact-form {
+        width: 90%;
+        height: 425px;
+    }
+
+    .input-form label {
+        font-size: 1.3rem;
+    }
+
     .input-form input {
-        width: 300px;
+        width: 280px;
     }
 
     .input-form textarea {
-        width: 300px;
+        width: 280px;
     }
 }
 

@@ -43,23 +43,26 @@
     </div>
 
     <div id="contact-form">
-      <h2 class="show">Contact Me</h2>
-      <form method="POST" name="contact" class="contact-form show">
-        <div class="input-form">
-          <label for="name" id="name-label">Name</label>
-          <input type="text" name="name" id="name">
+      <div id="inner-contact-form">
+        <h2 class="show">Contact Me</h2>
+          <form method="POST" name="contact" class="contact-form show">
+            <div class="input-form">
+              <label for="name" id="name-label">Name</label>
+              <input type="text" name="name" id="name">
+            </div>
+            <div class="input-form">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+            </div>
+            <div class="input-form">
+              <label>Message</label>
+              <textarea type="text" name="phone" id="phone"></textarea>
+            </div>
+            <input type="submit" value="Send" id="submit">
+          </form>
         </div>
-        <div class="input-form">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email">
-        </div>
-        <div class="input-form">
-          <label>Message</label>
-          <textarea type="text" name="phone" id="phone"></textarea>
-        </div>
-        <input type="submit" value="Send" id="submit">
-      </form>
-    </div>
+      </div>
+      
 
     <section id="footer" class="footer-shadow">
       <p>Copyright &copy; 2020 - Robert Smith</p>
