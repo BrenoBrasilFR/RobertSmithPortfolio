@@ -666,6 +666,7 @@ form > input:hover {
     #inner-contact-form {
         width: 90%;
         height: 425px;
+        background-color: rgba(0, 0, 0, 0.2);
     }
 
     .input-form label {
