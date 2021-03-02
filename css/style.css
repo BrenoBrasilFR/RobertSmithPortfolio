@@ -406,7 +406,7 @@ nav > ul > li > a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
     width: 500px;
     height: 450px;
     border-radius: 20px;
