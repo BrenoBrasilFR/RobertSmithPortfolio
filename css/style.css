@@ -14,6 +14,7 @@ li {
     font-weight: 300;
     cursor: default;
     margin: 0;
+    text-align: center;
 }
 
 /* Header */
@@ -306,7 +307,7 @@ nav > ul > li > a:hover {
     display: flex;
     justify-content: center;
     z-index: 2;
-    position: relative;
+    position: fixed;
     transition-duration: 0.5s;
     transition-property: background, box-shadow, border-bottom;
     border-bottom: 1px solid transparent;
@@ -384,6 +385,7 @@ nav > ul > li > a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 80px;
 }
 
 #contact-form form {
@@ -624,7 +626,7 @@ form > input:hover {
     }
 
     #services-services {
-        padding: 55px 20px 120px;
+        padding: 135px 20px 120px;
     }
 
     #services-services h1 {
@@ -637,16 +639,9 @@ form > input:hover {
 
     /* CONTACT */
     #contact-form {
-        height: 90vh;
+        height: 80vh;
         box-sizing: border-box;
-    }
-
-    #contact-form h2 {
-        font-size: 2.5rem;
-    }
-
-    .input-form label {
-        font-size: 1.3rem;
+        margin-top: 80px;
     }
 
     .input-form input {
