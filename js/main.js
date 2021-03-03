@@ -42,7 +42,7 @@ items.forEach(item => {
 
 /* SHOW ON IMAGE LOAD */
 function myFunction() {
-    mainItem.classList.add("show1");
+    setTimeout(() => {mainItem.classList.add("show1")}, 100)
 }
 
 /* MENU */
