@@ -160,6 +160,7 @@ nav > ul > li > a:hover {
 #about-me-text {
     height: 100%;
     width: 50%;
+    padding: 40px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -173,18 +174,20 @@ nav > ul > li > a:hover {
 }
 
 #about-me-wrap {
-    width: 90%;
-    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 #about-me-text h2 {
     font-size: 2.3rem;
-    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 #about-me-text p {
     font-size: 1.1rem;
-    margin: 0px;
+    margin-bottom: 10px;
 }
 
 #about-me-image {
