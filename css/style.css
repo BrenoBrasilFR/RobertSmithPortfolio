@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 
+::-webkit-scrollbar {
+    display: none;
+  } 
+
 body {
     margin: 0;
     --theme-color: lightgray;
