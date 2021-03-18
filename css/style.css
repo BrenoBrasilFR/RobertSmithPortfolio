@@ -2,7 +2,7 @@
 
 ::-webkit-scrollbar {
     display: none;
-  } 
+}
 
 body {
     margin: 0;
@@ -113,6 +113,7 @@ nav > ul > li > a:hover {
     height: 100vh;
     position: relative;
     z-index: 1;
+    background-attachment: fixed;
 }
 
 #showcase2 {
