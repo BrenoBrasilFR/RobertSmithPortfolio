@@ -24,7 +24,7 @@ li {
 
 /* Header */
 #header {
-    height: 80px;
+    height: 75px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -313,7 +313,7 @@ nav > ul > li > a:hover {
 
 /* Header */
 #header-alt {
-    height: 80px;
+    height: 75px;
     width: 100%;
     display: flex;
     justify-content: center;

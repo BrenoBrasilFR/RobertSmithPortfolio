@@ -69,7 +69,7 @@ function toggleMenu(e) {
         for (i = 0; i < menuText.length; i++) {
             menuText[i].style.color = "white";
         }
-        menuToggle.style.marginTop = "80px";
+        menuToggle.style.marginTop = "75px";
         menuToggle.style.backgroundColor = "black";
         menuTextCurrent.style.borderBottom = "lightgray solid 2px";
         menuToggle.style.borderBottom = "lightgray solid 0px";
