@@ -22,6 +22,14 @@ li {
     margin: 0;
 }
 
+.shadow {
+    box-shadow: none;
+}
+
+.footer-shadow {
+    box-shadow: none;
+}
+
 /* Header */
 #header {
     height: 80px;
@@ -33,10 +41,6 @@ li {
     transition-duration: 0.5s;
     transition-property: background, box-shadow, border-bottom;
     border-bottom: 1px solid transparent;
-}
-
-.shadow {
-    box-shadow: 0px 0px 20px black;
 }
 
 #inner-header {
@@ -293,10 +297,6 @@ nav > ul > li > a:hover {
     color: white;
 }
 
-.footer-shadow {
-    box-shadow: 0px 0px 0px, 0px 0px 20px black;
-}
-
 /* SERVICES */
 #services2 {
     display: flex;
@@ -321,6 +321,7 @@ nav > ul > li > a:hover {
     position: fixed;
     transition-duration: 0.5s;
     transition-property: background, box-shadow, border-bottom;
+    background: transparent;
 }
 
 #footer-alt {
@@ -331,6 +332,7 @@ nav > ul > li > a:hover {
     z-index: 2;
     text-align: center;
     color: white;
+    background: transparent;
 }
 
 /* Body */
@@ -703,15 +705,48 @@ form > input:hover {
     .input-form label {
         font-weight: 300;
     }
+
+    #header-alt {
+        background: black;
+    }
+
+    #footer-alt {
+        background: black;
+    }
+
+    .shadow {
+        box-shadow: 0px 0px 20px black;
+    }
+
+    .footer-shadow {
+        box-shadow: 0px 0px 0px, 0px 0px 20px black;
+    }
 }
 
-@media (max-width: 1024px) and (min-device-width: 481px) {
+@media (max-width: 1366px) and (min-device-width: 481px) {
     /* SERVICES */
     #body-services {
-        background: url(../images/pic4.jpg) no-repeat 0 80px;
+        background: url(../images/pic4.jpg) no-repeat 0 0;
+        background-size: cover;
     }
 
     .services-box {
         width: 25%;
+    }
+
+    #header-alt {
+        background: rgba(0, 0, 0, 0.15);
+    }
+
+    #footer-alt {
+        background: rgba(0, 0, 0, 0.15);
+    }
+
+    .shadow {
+        box-shadow: 0px 0px 20px black;
+    }
+
+    .footer-shadow {
+        box-shadow: 0px 0px 0px, 0px 0px 20px black;
     }
 }
