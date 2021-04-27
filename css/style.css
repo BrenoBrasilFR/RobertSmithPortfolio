@@ -24,7 +24,7 @@ li {
 
 /* Header */
 #header {
-    height: 75px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -313,7 +313,7 @@ nav > ul > li > a:hover {
 
 /* Header */
 #header-alt {
-    height: 75px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -321,7 +321,16 @@ nav > ul > li > a:hover {
     position: fixed;
     transition-duration: 0.5s;
     transition-property: background, box-shadow, border-bottom;
-    border-bottom: 1px solid transparent;
+}
+
+#footer-alt {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    text-align: center;
+    color: white;
 }
 
 /* Body */
