@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 ::-webkit-scrollbar {
     display: none;
 }
@@ -41,6 +40,9 @@ li {
     transition-duration: 0.5s;
     transition-property: background, box-shadow, border-bottom;
     border-bottom: 1px solid transparent;
+    color: white;
+    font-weight: 300;
+    border: var(--selected-color);
 }
 
 #inner-header {
@@ -51,7 +53,7 @@ li {
 }
 
 #brand h2 {
-    color: white;
+    color: inherit;
     cursor: default;
     font-size: 1.8rem;
 }
@@ -62,32 +64,41 @@ nav > ul {
 
 nav > ul > li,
 .menuToggle1 > ul > li {
-    color: white;
+    color: inherit;
     margin: 0 10px;
     list-style: none;
+    font-weight: inherit;
 }
 
 nav > ul > li > a {
     text-decoration: none;
-    color: white;
+    color: inherit;
     font-size: 1.13rem;
     padding: 8px 10px;
     transition-property: border, color;
     transition-duration: 0.3s;
     border-bottom: solid 2px transparent;
+    font-weight: inherit;
 }
 
 nav > ul > li > a:hover {
-    border-bottom: 2px solid var(--theme-color);
+    border-bottom: inherit;
+}
+
+#ul a:hover {
+    border-bottom: solid 2px white;
+}
+
+#ul-c a:hover {
+    border-bottom: solid 2px black;
 }
 
 .current {
-    color: var(--selected-color);
-    border-bottom: solid 2px var(--theme-color);
+    border-bottom: solid 2px white;
 }
 
-.current:hover {
-    border-bottom: solid 2px var(--theme-color);
+.current-c {
+    border-bottom: solid 2px black;
 }
 
 .line {
@@ -295,6 +306,7 @@ nav > ul > li > a:hover {
 
 #footer p {
     color: white;
+    font-size: 1.1rem;
 }
 
 /* SERVICES */
@@ -321,7 +333,8 @@ nav > ul > li > a:hover {
     position: fixed;
     transition-duration: 0.5s;
     transition-property: background, box-shadow, border-bottom;
-    background: transparent;
+    color: black;
+    font-weight: 400;
 }
 
 #footer-alt {
@@ -332,7 +345,7 @@ nav > ul > li > a:hover {
     z-index: 2;
     text-align: center;
     color: white;
-    background: transparent;
+    font-size: 1.1rem;
 }
 
 /* Body */
@@ -342,6 +355,14 @@ nav > ul > li > a:hover {
     justify-content: space-between;
     height: 100vh;
     background: url(../images/pic4.jpg) no-repeat 0 -100px;
+}
+
+#body-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(../images/pic3.jpg) no-repeat 0 0;
 }
 
 #body-services::before {
@@ -428,7 +449,7 @@ nav > ul > li > a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 480px;
     height: 430px;
     border-radius: 20px;
@@ -445,7 +466,7 @@ nav > ul > li > a:hover {
 .input-form label {
     color: white;
     font-size: 1.3rem;
-    font-weight: 100;
+    font-weight: 300;
     font-family: "Roboto";
     margin-bottom: 5px;
 }
@@ -459,6 +480,7 @@ nav > ul > li > a:hover {
 .input-form textarea {
     width: 400px;
     height: 60px;
+    border: none;
 }
 
 form > input {
@@ -511,6 +533,14 @@ form > input:hover {
     /* Header */
     #header {
         background: black;
+    }
+
+    #header-alt {
+        color: white;
+    }
+
+    #body-contact {
+        background: url(../images/pic3.jpg) no-repeat center cover/800px;
     }
 
     .menuOuter {
@@ -706,6 +736,11 @@ form > input:hover {
         font-weight: 300;
     }
 
+    #body-contact {
+        background-size: cover;
+        background-position: center center;
+    }
+
     #header-alt {
         background: black;
     }
@@ -723,7 +758,7 @@ form > input:hover {
     }
 }
 
-@media (max-width: 1366px) and (min-device-width: 481px) {
+@media (max-width: 1366px) and (min-device-width: 768px) {
     /* SERVICES */
     #body-services {
         background: url(../images/pic4.jpg) no-repeat 0 0;
@@ -732,21 +767,5 @@ form > input:hover {
 
     .services-box {
         width: 25%;
-    }
-
-    #header-alt {
-        background: rgba(0, 0, 0, 0.15);
-    }
-
-    #footer-alt {
-        background: rgba(0, 0, 0, 0.15);
-    }
-
-    .shadow {
-        box-shadow: 0px 0px 20px black;
-    }
-
-    .footer-shadow {
-        box-shadow: 0px 0px 0px, 0px 0px 20px black;
     }
 }
